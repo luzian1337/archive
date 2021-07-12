@@ -7,7 +7,6 @@ cf_zone_id="" #Your Cloudflare Zone ID (site)
 
 #T1 Block (TOR)
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"country","value":"T1"}}';
-#20210615
 
 #Geo JS challenges
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"country","value":"BR"}}';
@@ -19,7 +18,6 @@ curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"country","value":"IN"}}';
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"country","value":"BD"}}';
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"country","value":"CN"}}';
-#20210615
 
 #ASN Blocks (hostings)
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS42926"}}';
@@ -277,4 +275,4 @@ curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS210079"}}';
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS208677"}}';
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS34300"}}';
-#20210704
+curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS13287"}}';
