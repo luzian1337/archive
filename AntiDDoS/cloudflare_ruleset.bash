@@ -304,5 +304,12 @@ curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS39605"}}';
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS212369"}}';
 curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS141677"}}';
+curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS42831"}}';
+curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS397270"}}';
+curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS53850"}}';
+curl -s -X POST "https://api.cloudflare.com/client/v4/zones/$cf_zone_id/firewall/access_rules/rules"  -H "X-Auth-Email: $cf_email" -H "X-Auth-Key: $cf_api_key" -H "Content-Type: application/json" --data '{"mode":"challenge","configuration":{"target":"asn","value":"AS47684"}}';
+
+
+
 
 
