@@ -1,4 +1,6 @@
 /*
+made by googleadmin
+
 gcc -o oackv1 oackv1.c -pthread
 
 This script does not need ip spoofing and works on OVHGAME,
