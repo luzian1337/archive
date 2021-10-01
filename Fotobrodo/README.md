@@ -1,7 +1,10 @@
 Enjoy a full dump of Fotobrodo, a collection of the best images around the net.
+
 All rights to Fotobrodo collection owner https://www.darwinite-blog.com/
-```
+
 Download links:
+
+```
 https://anonfiles.com/Z6c4YcKduf/Fotobrodo_collection_7z
 https://gofile.io/d/FX7jxn
 https://www83.zippyshare.com/v/Lqtlk56Q/file.html
@@ -17,7 +20,9 @@ http://fotobrodo.altervista.org/Fotobrodo_collection.7z
 
 Archive password: cyberhub
 ```
+
 HF!
 
 Your, JiiN
+
 https://cyber-hub.pw/
