@@ -25,4 +25,4 @@ HF!
 
 Your, JiiN
 
-https://cyber-hub.pw/
+https://cyber-hub.net/
